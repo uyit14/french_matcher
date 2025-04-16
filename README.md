@@ -1,16 +1,35 @@
-# french_matcher
+# 🧠 Memory Word Game - Flutter App
 
-A new Flutter project.
+A simple and fun vocabulary training game where users match English words with their corresponding French translations. Inspired by the classic \"Memory\" card game, but for words!
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Clean and welcoming start screen with a `GO!` button.
+- Randomized English and French word lists each time you play.
+- Interactive pairing: tap English then French to create a match.
+- Press `GRADE` to evaluate your matches and view your accuracy.
+- Play as many times as you'd like!
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Setup & Run Instructions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 1. Requirements
+
+- Flutter SDK (>= 3.x)
+- Dart SDK (>= 3.x)
+- A machine running **Windows**, **macOS**, or **Linux**
+- Recommended IDEs: [VS Code](https://code.visualstudio.com) or [Android Studio](https://developer.android.com/studio)
+
+### 2. Install Flutter
+
+Follow the official installation guide: https://docs.flutter.dev/get-started/install
+
+For quick setup:
+
+**macOS/Linux:**
+
+```bash
+git clone https://github.com/flutter/flutter.git
+export PATH=\"$PATH:`pwd`/flutter/bin\"
+flutter doctor
